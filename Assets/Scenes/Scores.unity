@@ -1811,13 +1811,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: 
   score: 0
-  namesSaved:
-  - 
-  - 
-  - 
-  - 
-  - 
-  scoresSaved: 0000000000000000000000000000000000000000
+  savedData:
+  - name: 
+    score: 0
+  - name: 
+    score: 0
+  - name: 
+    score: 0
+  - name: 
+    score: 0
+  - name: 
+    score: 0
 --- !u!4 &2114159938
 Transform:
   m_ObjectHideFlags: 0

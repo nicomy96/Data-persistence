@@ -20,6 +20,7 @@ public class Paddle : MonoBehaviour
 
         Vector3 pos = transform.position;
         pos.x += input * Speed * Time.deltaTime;
+        
 
         if (pos.x > MaxMovement)
             pos.x = MaxMovement;
