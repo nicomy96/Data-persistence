@@ -31,6 +31,10 @@ public class MenuHandler : MonoBehaviour
         
         SceneManager.LoadScene(1);
     }
+    public void ScoreRanking()
+    {
+        SceneManager.LoadScene(2);
+    }
    
     public void EndGame()
     {
@@ -40,4 +44,5 @@ public class MenuHandler : MonoBehaviour
          Application.Quit();
 #endif
     }
+    
 }
